@@ -65,7 +65,8 @@ while True:
             modif_ciph += char
     tick += 1
     print("\n")
-    print(modif_ciph) 
+    print(modif_ciph)
+    cipher = modif_ciph
 
 
 if sys.argv[2] == 'Y':
