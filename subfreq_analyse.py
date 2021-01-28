@@ -60,7 +60,7 @@ while True:
     modif_ciph = ''
     for char in cipher:
         if char == replace:
-            modif_ciph += tochar
+            modif_ciph += tochar.upper()
         else:
             modif_ciph += char
     tick += 1
@@ -75,4 +75,4 @@ if sys.argv[2] == 'Y':
 
 print("----------------------------------------------------------Decypher Text ------------------------------------------------------------------------" )
 
-print(modif_ciph)
+print(modif_ciph).lower()
