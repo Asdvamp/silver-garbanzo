@@ -52,7 +52,9 @@ while True:
         break
     print(f"----------------------------------------------------------Decode count:  {tick}---------------------------------------------------------------------")
     replace = input("Char you want to replace : ")
+    replace.lower()
     tochar = input("To the char : ")
+    tochar.lower()
     keyfile[ord(replace) - 97] = tochar
     # Storing modified text
     modif_ciph = ''
